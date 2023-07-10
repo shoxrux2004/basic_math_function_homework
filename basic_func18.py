@@ -1,5 +1,9 @@
+from math import*
 def main(a):
-    '''Assign the value pi to the parametr "a". Round the result to 2 decimal places and return it.
+    pi_qiymati=round(pi,a)
+    return pi_qiymati
+print(main(2))
+'''Assign the value pi to the parametr "a". Round the result to 2 decimal places and return it.
     
     Args:
         a (float): a number
@@ -7,4 +11,3 @@ def main(a):
     Returns:
         float: the result.
     '''
-    return
