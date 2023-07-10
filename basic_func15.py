@@ -1,5 +1,9 @@
+from math import*
 def main(a, b):
-    '''Find the remainder when a is divided by b and return it.
+    qol=a%b
+    return qol
+print(main(23,5))
+'''Find the remainder when a is divided by b and return it.
     
     Args:
         a (int): a number
@@ -8,4 +12,3 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return
