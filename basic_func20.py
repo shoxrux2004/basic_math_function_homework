@@ -1,5 +1,8 @@
 def main(a, b):
-    '''find the multiplication of a and b and return it.
+    kopaytma=a*b
+    return kopaytma
+print(main(4,5))
+'''find the multiplication of a and b and return it.
     
     Args:
         a (int): a number
@@ -8,4 +11,3 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return
