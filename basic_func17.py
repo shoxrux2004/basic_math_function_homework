@@ -1,5 +1,9 @@
+from math import *
 def main():
-    '''return the value of pi
+    pi_qiymat=pi
+    return pi_qiymat
+print(pi)
+'''return the value of pi
     
     Args:
         a (float): a number
@@ -7,4 +11,3 @@ def main():
     Returns:
         float: the value of pi.
     '''
-    return
