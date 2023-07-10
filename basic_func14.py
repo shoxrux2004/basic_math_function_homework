@@ -1,5 +1,10 @@
-def main(a, b):
-    '''find the floor division of a and b and return it.
+from math import *
+def main(a,b):
+    yax=a/b
+    return floor(yax)
+print(main(11,2))
+
+'''find the floor division of a and b and return it.
     
     Args:
         a (int): a number
@@ -8,4 +13,3 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return 
